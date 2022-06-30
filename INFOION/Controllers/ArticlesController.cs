@@ -55,7 +55,7 @@ namespace INFOION.Controllers
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
             ViewData["CountryId"] = new SelectList(_context.Countries, "Id", "Name");
-            ViewData["PublisherId"] = new SelectList(_context.Publishers, "Id", "Name");
+            ViewData["PublisherId"] = new SelectList(_context.Publishers, "Id", "LastName");
             ViewData["SourceId"] = new SelectList(_context.Sources, "Id", "Name");
             return View();
         }
@@ -87,7 +87,7 @@ namespace INFOION.Controllers
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", article.CategoryId);
             ViewData["CountryId"] = new SelectList(_context.Countries, "Id", "Name", article.CountryId);
-            ViewData["PublisherId"] = new SelectList(_context.Publishers, "Id", "Name", article.PublisherId);
+            ViewData["PublisherId"] = new SelectList(_context.Publishers, "Id", "LastName", article.PublisherId);
             ViewData["SourceId"] = new SelectList(_context.Sources, "Id", "Name", article.SourceId);
             return View(article);
         }

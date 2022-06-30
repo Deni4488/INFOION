@@ -9663,19 +9663,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fslsv\\.nuget\\packages\\": {}
+    "C:\\Users\\Александр\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fslsv\\Desktop\\folder\\INFOION\\INFOION.csproj",
+      "projectUniqueName": "C:\\Downloads\\INFOION-master\\INFOION\\INFOION.csproj",
       "projectName": "INFOION",
-      "projectPath": "C:\\Users\\fslsv\\Desktop\\folder\\INFOION\\INFOION.csproj",
-      "packagesPath": "C:\\Users\\fslsv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fslsv\\Desktop\\folder\\INFOION\\obj\\",
+      "projectPath": "C:\\Downloads\\INFOION-master\\INFOION\\INFOION.csproj",
+      "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
+      "outputPath": "C:\\Downloads\\INFOION-master\\INFOION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fslsv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

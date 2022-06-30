@@ -13,6 +13,150 @@ html {
   min-height: 100%;
 }
 
+.navbar {
+    background-color: white;
+}
+
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: #c5c4ff52;
+}
+
+.text-center {
+    position: fixed;
+    left: 210px;
+    top: 200px;
+    text-align: start !important;
+    color: black;
+}
+
+.display-3, .display-6 {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    border: 1px solid #000;
+    text-align: center;
+    margin-right: 5px;
+    padding: 8px 20px;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}
+
+.nav-auth .nav-link {
+    position: fixed;
+    right: 30px;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a.text {
+    color: black;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 30px;
+    background-color: white;
+}
+
+.privacy {
+    background: white;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+}
+
+.topmenu li:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: white;
+    text-decoration: none;
+}
+
+.sub {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+.sub:hover {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.down {
+    position: relative;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn-danger {
+    color: black;
+}
+
+div.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+
+.news {
+    display: grid;
+    /*grid-template-columns: 2fr 1fr;*/
+    grid-gap: 16px;
+}
+
+.td {
+    position: relative;
+    max-height: 40px;
+    overflow: hidden;
 }
