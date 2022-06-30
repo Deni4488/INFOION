@@ -147,6 +147,19 @@ div.wrapper {
     padding-right: 16px;
     background-color: white;
     text-overflow: ellipsis;
+    padding-top: 10px;
+}
+
+div.wrapper1 {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .news {
