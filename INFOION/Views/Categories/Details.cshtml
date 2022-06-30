@@ -19,27 +19,31 @@
     </dl>
 </div>
 <div>
-    <h4> Список статей </h4>
-    <table class="table">
-    <tbody>
-    @foreach(var item in Model.Articles )
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Content)
-            </td>
-            <td>
-                <a asp-controller="Articles" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-controller="Articles" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-controller="Articles" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-    }
-        </tbody>
-    </table>
+    <div class="wrapper">
+        <div class="news">
+            <h4> Список статей </h4>
+            <table class="table">
+            <tbody>
+            @foreach(var item in Model.Articles )
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </td>
+                    <td>
+                        <a asp-controller="Articles" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-controller="Articles" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-controller="Articles" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
