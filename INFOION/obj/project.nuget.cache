@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/prh3B3Kvs1KntQ0WvS/xvfWYl5RVwt1NkdHMidXCj3tBitqj5lcG9mWunk7u3Hnd/SKjVqdp8GBkcykjdwSXQ==",
+  "dgSpecHash": "XMvqvfnLfQys7Hxab4mMq984m8s3ynEA+ccHMDwbDpMh50Qb02f5MBF9vsDipbaPCzp8FeBQ7yNVSDF202L+Pw==",
   "success": true,
-  "projectFilePath": "C:\\Downloads\\INFOION-master\\INFOION\\INFOION.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Desktop\\INFOION\\INFOION\\INFOION.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
